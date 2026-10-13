@@ -1,0 +1,7 @@
+# Install CPU-only PyTorch FIRST (setup_windows.bat does this):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+ultralytics>=8.3
+opencv-python>=4.8
+numpy>=1.24
+psutil>=5.9
+lapx>=0.5.5        # required by ByteTrack's assignment step
